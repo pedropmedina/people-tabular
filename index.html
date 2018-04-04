@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>People Tabular Data </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=NTR|Playball" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">tabular</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>Phone No</th>
+                    <th>Email</th>
+                    <th>Employed</th>
+                    <th>Married</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>Rex</td>
+                    <td>Durgan</td>
+                    <td>4236 Connelly Curve</td>
+                    <td>129.119.9216 x945</td>
+                    <td>faker@faker.com</td>
+                    <td class="false">false</td>
+                    <td class="true">true</td>
+                </tr>
+
+                <tr>
+                    <td>Rex</td>
+                    <td>Durgan</td>
+                    <td>4236 Connelly Curve</td>
+                    <td>129.119.9216 x945</td>
+                    <td>faker@faker.com</td>
+                    <td class="false">false</td>
+                    <td class="true">false</td>
+                </tr> -->
+            </tbody>
+        </table>
+
+        <div class="inputs-container first-input-row">
+            <input type="text"  class="first-name" name="First Name" placeholder="First Name">
+            <input type="text"  class="last-name" name="Last Name" placeholder="Last Name">
+        </div>
+
+        <div class="inputs-container second-input-row">
+            <input type="text" class="address" name="Address" placeholder="Address">
+            <input type="text"  class="phone" name="Phone No" placeholder="Phone No">
+            <input type="text"  class="email" name="Email" placeholder="Email">
+        </div>
+
+        <div class="inputs-container third-input-row">
+            <input type="text"  class="employed" name="Employed" placeholder="Employed e.g. true or false">
+            <input type="text"  class="married" name="Married" placeholder="Married e.g. true or false">
+        </div>
+
+        <div class="inputs-container button-container">
+            <i id="log-btn" class="btn ion-checkmark"></i>
+            <button>Save</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
